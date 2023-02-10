@@ -1,0 +1,48 @@
+.upcoming_projects {
+    margin-bottom: 0 !important;
+    border-spacing: 0 2px;
+    border-collapse:separate; 
+    border-spacing: 0;
+
+    th {
+        padding:10px 40px 20px 40px;
+        i {
+            color: $color_black;
+            vertical-align: middle;
+            font-weight: normal;
+            font-size: 17.5px;
+        }
+        span {
+            color: $color_black;
+            font-weight: bold;
+            vertical-align: middle;
+        }
+    }
+    tr {
+
+        background: transparent;
+        td {
+            vertical-align: middle;
+            padding: 30px 40px;
+            background: transparent;
+            white-space: nowrap;
+        }
+        &.white {
+            td {
+                background: transparent;
+            }
+        }
+    }
+    .table * {
+        border: none !important;
+    
+    }
+    
+    table tbody  td:first-child {
+        border-radius: 10px 0 0 10px;
+      }
+      
+      table tbody  td:last-child {
+        border-radius: 0 10px 10px 0;
+      }
+  }

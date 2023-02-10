@@ -1,0 +1,12 @@
+blockchain project
+
+NFT marketplace (Fantom network)
+
+1. marketplace contract
+2. nft collection backend (node js server)
+3. admin panel to control backend
+3. frontend
+- 
+- list/remove/buy/auction
+- profile page
+- collection page

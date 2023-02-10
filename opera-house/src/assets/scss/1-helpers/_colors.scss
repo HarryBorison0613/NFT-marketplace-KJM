@@ -1,0 +1,88 @@
+// === Template colors
+
+$color_stroke: var(--color-stroke);
+$color_brand: var(--color-brand);
+
+$color_dark: var(---color-dark);
+
+$color_brand_light: var(--color-brand_light);
+$color_grad: var(--color-grad);
+
+$color_text: var(--color-text);
+$color_input: var(--color-input);
+$color_light: var(--color-light);
+$color_body: var(--color-body);
+$color_hard_light: #e6edf0;
+$color_white: var(--color-white);
+$color_black: var(--color-black);
+$color_green: var(--color-green);
+$color_info: var(--color-info);
+$color_red: var(--color-red);
+$color-grey: var(--color-grey);
+$color-grey-icon: var(--color-grey-icon);
+
+$color_yellow: var(--color-yellow);
+$color_brand2: var(--color-brand2);
+
+$operalogo: var(--operalogo);
+
+// === end
+
+$maxMobile: "(max-width:767px)";
+$maxSmall: "(max-width:991px)";
+$minSmall: "(min-width:768px)";
+$minMedium: "(min-width:992px)";
+$minLarge: "(min-width:1200px)";
+
+.is_color {
+    $color_brand: $color_brand2;
+}
+
+// === Ui Kit
+
+.color {
+    .color_box {
+        margin-bottom: 20px;
+        .color_palette {
+            border-radius: 10px;
+            height: 100px;
+            &.Brand {
+                background-color: $color_brand;
+            }
+            &.Gradient {
+                background: $color_grad;
+            }
+            &.Black {
+                background-color: $color_black;
+            }
+            &.White {
+                background-color: $color_white;
+            }
+            &.Light {
+                background-color: $color_light;
+            }
+            &.Hard_light {
+                background-color: $color_hard_light;
+            }
+
+            &.Brand_light {
+                background-color: $color_brand_light;
+            }
+            &.Red {
+                background-color: $color_red;
+            }
+            &.Green {
+                background: $color_green;
+            }
+            &.Info {
+                background-color: $color_info;
+            }
+            &.Stroke {
+                background-color: $color_stroke;
+            }
+            &.Text {
+                background-color: $color_text;
+            }
+        }
+    }
+}
